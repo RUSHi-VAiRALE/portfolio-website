@@ -28,7 +28,7 @@ const skills = [
 // Update the media type definition to handle both string URLs and imported images
 type MediaItem = {
   type: "image" | "video";
-  url: string | StaticImageData;
+  url: string | any;
   alt?: string;
   poster?: string;
 };
